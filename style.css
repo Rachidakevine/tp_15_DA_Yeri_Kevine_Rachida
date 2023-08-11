@@ -1,115 +1,84 @@
 
 
-
-
-.A (1){
-    
-    background-color: rgb(128, 87, 6);
-    display: flex;
-    height: 60px;
-font-size: 20px;   
-}
-.navbar-toggler {
-    background-color: aliceblue;
-}
-
 .corps{
     background-color: rgb(162, 162, 211);
    height: 800px; 
    color: rgb(116, 141, 101);
    text-align: center;
+   
 }
-.corpus I{
+.corpus {
     display: flex;
-    justify-content: space-between; 
-}
-.corpus I h1{
-    margin-top: 200px;
+    justify-content: center;
+    font-size: 100px;
+    color: rgb(211, 216, 219);
     
 }
-.corpus I h2{
-    margin-top: 208px;
-}
-.c{
-    position: relative;
-    font-size: 80px;
-    color:blueviolet;
-    width: 20px;
-}
-.c strong{
-    color: bisque;
+.ecis{
+    margin-top: 200px;
     font-size: 100px;
+    color: orange;
 }
-.d flex {
-    margin-left: 500px;
-    margin-top: 50px;
-    font-size: 100px;
-}
+
 .fun{
-    color: rgb(72, 77, 60);
-    font-size: 20px;
+    color: rgb(122, 132, 101);
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
 }
 .fan{
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-left: 40px;
     padding-right: 20px;
-   background-color: rgb(240, 190, 11);
+   background-color: rgb(203, 177, 83);
 }
 .here{
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-right: 20px;
     padding-left: 20px;
-   background-color: rgb(210, 15, 181);
+   background-color: rgb(185, 167, 183);
+   margin: 5px;
 }
-.fun {
-    text-align: center;
-}
-.un fa{
+.un {
     text-align: center;
     color: rgb(203, 75, 11);
-    font-size: 100px;
+    font-size: 70px;
 }
 .une {
     text-align: center;
     font-size: 20px;
 }
-.M{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-}
 .tu{
     font-size: 150px;
     color: rgb(168, 118, 48);
-}
-.ol{
-   padding-right: 50px;
-   text-align: center;
-}
-.rt {
-    font-size: 150px;
-    color: rgb(168, 118, 48);
-    margin-right: 50px;
-}
- 
+    margin-left: 50px;    
+ }
 .tex {
     font-size: 150px;
     color:  rgb(168, 118, 48);
     margin-left: 50px;
+    margin-right: 50px;
+
 } 
-.more {
-    background-size:  greenyellow;
-    color: greenyellow;
+
+.lorem {
+   margin-left: 50px;
+   margin-right: 100px; 
+
 }
-.voi i{
-    color: rgb(168, 118, 48);
-    font-size: 150px;
+.lundi {
+  margin-left: 100px; 
+    margin-right: 100px;
+    
+}
+.more {
+    color: greenyellow;
+    border-radius: 10px;
     margin-left: 50px;
 }
+
 .souri {
     font-size: 25px;
     color: rgb(165, 90, 90);
@@ -120,18 +89,24 @@ font-size: 20px;
 .row img{
     padding: 30px;
 }
-.personne {
-   background-color: orange; 
-   height: 750px;
+.persone {
+   background-color: aqua;
 }
 .bi-facebook{
     color: blue;
+    margin-right: 10px;
 }
 .bi-twitter{
-    color: rgb(12, 12, 40) light;
+    color: rgb(61, 61, 159);
+    margin-right: 5px;
 }
 .bi-youtube{
     color: red;
+}
+.droite{
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
 }
 .pourcen {
     font-size: 30px;
@@ -161,38 +136,5 @@ font-size: 20px;
     color: antiquewhite;
     font-size: 20px;
 }
-.ecris {
-    font-size: 80px;
-    color: white;
-}
 
-    
-@media screen and (max-width: 300px){
-    .I{
-        
-        flex-direction: column;
-        margin: 0%;
-    }
-    .I h1{
-        margin-top: 0;
-    }
-    .I  h2{
-        margin-top: 0;
-    }
-    .fe{
-        flex-flow: wrap;
-        font-size: normal;
-    }
-        
-}
-    
-@media screen and (max-width: 300px){
-    .fa{
-    font-size: 50px;
-    }
-        
-}
-@media screen and (max-width: 300px){
-    
-        
-}
+
