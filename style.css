@@ -1,29 +1,24 @@
 
 
+
+.bloc{
+}
+
 .corps{
     background-color: rgb(162, 162, 211);
    height: 800px; 
    color: rgb(116, 141, 101);
-   text-align: center;
-   
-}
-.corpus {
-    display: flex;
-    justify-content: center;
-    font-size: 100px;
-    color: rgb(211, 216, 219);
-    
-}
-.ecis{
-    margin-top: 200px;
-    font-size: 100px;
-    color: orange;
+   text-align: center; 
 }
 
+.ecis{
+    font-size: 100px;
+    color: orange;
+    padding: 100px;
+}
 .fun{
     color: rgb(122, 132, 101);
     font-size: 50px;
-    margin-top: 50px;
     text-align: center;
 }
 .fan{
@@ -55,16 +50,24 @@
     color: rgb(168, 118, 48);
     margin-left: 50px;    
  }
-.tex {
+.nom{
+    background-color: white;
+    
+}
+.bisou{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.icone{
     font-size: 150px;
     color:  rgb(168, 118, 48);
     margin-left: 50px;
     margin-right: 50px;
-
-} 
-
+}
 .lorem {
-   margin-left: 50px;
+   margin-left: 100px;
    margin-right: 100px; 
 
 }
@@ -76,7 +79,8 @@
 .more {
     color: greenyellow;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .souri {
@@ -138,3 +142,63 @@
 }
 
 
+@media screen and(max-width: 300px) {
+    .corpus {
+        flex-direction: column;
+        margin: 0%;
+
+    }
+    
+   .ecis{
+       margin-top: 0%; 
+       font-size: 150;  
+   } 
+   
+   .fan{
+       
+    flex-flow: wrap;
+    font-size: normal;
+   } 
+}
+@media screen and (max-width: 300px) {
+    .un{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .icone{
+        margin-left: 0%;
+    }
+    .bisou{
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .lorem {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 300px) {
+   .bloc {
+    width: 90%;
+    height: 90%;
+     }
+}
+@media screen and (max-width: 900px) {
+
+    .bisou{
+        flex-direction: column;
+    }
+        
+}
+@media screen and (max-width: 545px) {
+   .ecis{
+    font-size: 50px;
+   }
+}
+@media screen and (max-width: 300px) {
+    .ecis {
+     font-size: 38px;
+     
+      }
+}
