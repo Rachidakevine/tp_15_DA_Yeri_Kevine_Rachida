@@ -1,10 +1,16 @@
 
 
 
-.bloc{
-}
-.menu{
-  display: flex;  
+
+
+
+
+
+
+
+.tim{
+   margin-top: -7px; 
+    
 }
 .devan{
     display: flex;
@@ -16,11 +22,12 @@
    height: 800px; 
    color: rgb(116, 141, 101);
    text-align: center; 
+   width: 100%;
 }
 
 .ecis{
     font-size: 100px;
-    color: orange;
+    color: rgb(29, 27, 23);
     padding: 100px;
 }
 .fun{
